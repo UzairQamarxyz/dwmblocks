@@ -8,7 +8,7 @@ static const Block blocks[] = {
 	
 	{"~/.cache/dwmbar/scripts/battery.sh",		5,		0},
 
-	{"~/.cache/dwmbar/scripts/volume.sh",		0,		10},
+	{"~/.cache/dwmbar/scripts/volume.sh",		1,		10},
 
 	{"~/.cache/dwmbar/scripts/time.sh",	        60,		0},
 };
