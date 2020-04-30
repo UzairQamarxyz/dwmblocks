@@ -2,15 +2,15 @@
 static const Block blocks[] = {
 	/*Command*/		/*Update Interval*/	/*Update Signal*/
 
-	{"~/.cache/dwmbar/scripts/cmus.sh",              1,		20},
+	{"$HOME/Scripts/dwmblocks/cmus.sh",              1,		20},
 
-	{"~/.cache/dwmbar/scripts/network.sh",	        10,		0},
+	{"$HOME/Scripts/dwmblocks/network.sh",	        10,		0},
 	
-	{"~/.cache/dwmbar/scripts/battery.sh",		5,		0},
+	{"$HOME/Scripts/dwmblocks/volume.sh",		5,		0},
 
-	{"~/.cache/dwmbar/scripts/volume.sh",		1,		10},
+	{"$HOME/Scripts/dwmblocks/battery.sh",		1,		10},
 
-	{"~/.cache/dwmbar/scripts/time.sh",	        60,		0},
+	{"$HOME/Scripts/dwmblocks/time.sh",	        60,		0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
