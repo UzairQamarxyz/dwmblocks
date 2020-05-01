@@ -6,9 +6,9 @@ static const Block blocks[] = {
 
 	{"$HOME/Scripts/dwmblocks/network.sh",	        10,		0},
 	
-	{"$HOME/Scripts/dwmblocks/volume.sh",		5,		0},
+	{"$HOME/Scripts/dwmblocks/battery.sh",		5,		0},
 
-	{"$HOME/Scripts/dwmblocks/battery.sh",		1,		10},
+	{"$HOME/Scripts/dwmblocks/volume.sh",		1,		10},
 
 	{"$HOME/Scripts/dwmblocks/time.sh",	        60,		0},
 };
