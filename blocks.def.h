@@ -11,7 +11,7 @@ static const Block blocks[] = {
 
     {"$HOME/.local/bin/dwmblocks/volume.sh", 1, 10},
 
-    {"$HOME/.local/bin/dwmblocks/date.sh", 1, 0},
+    {"$HOME/.local/bin/dwmblocks/date.sh", 30, 0},
 
     {"$HOME/.local/bin/dwmblocks/time.sh", 1, 0},
 
