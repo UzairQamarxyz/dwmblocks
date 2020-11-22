@@ -7,13 +7,13 @@ static const Block blocks[] = {
 
     {"", "$HOME/.local/bin/dwmblocks/battery.sh", 1, 0},
 
-    {"", "$HOME/.local/bin/dwmblocks/volume.sh", 0, 10},
+    {"", "$HOME/.local/bin/dwmblocks/volume.sh", 1, 10},
 
-    {"", "$HOME/.local/bin/dwmblocks/date.sh", 1, 0},
+//    {"", "$HOME/.local/bin/dwmblocks/date.sh", 1, 0},
 
     {"", "$HOME/.local/bin/dwmblocks/time.sh", 1, 0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
-static char delim[] = " ";
-static unsigned int delimLen = 5;
+static char delim[] = "\ue190";
+static unsigned int delimLen = 10;
