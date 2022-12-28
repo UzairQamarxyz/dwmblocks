@@ -1,19 +1,19 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
     /*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-    {"", "$HOME/.local/bin/dwmblocks/cmus.sh", 1, 20},
+    {"", "dwm-cmus", 1, 20},
 
-    {"", "$HOME/.local/bin/dwmblocks/network.sh", 1, 0},
+    {"", "dwm-network", 1, 0},
 
-    {"", "$HOME/.local/bin/dwmblocks/battery.sh", 1, 0},
+    {"", "dwm-battery", 1, 0},
 
-    {"", "$HOME/.local/bin/dwmblocks/volume.sh", 1, 10},
+    {"", "dwm-volume", 1, 10},
 
-    {"", "$HOME/.local/bin/dwmblocks/date.sh", 1, 0},
+    {"", "dwm-date", 1, 0},
 
-    {"", "$HOME/.local/bin/dwmblocks/time.sh", 1, 0},
+    {"", "dwm-time", 1, 0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
-static char delim[] = "   ";
+static char delim[] = "  ";
 static unsigned int delimLen = 10;
